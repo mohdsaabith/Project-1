@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Montserrat;
+
+}
+
+/*--- Navigator css start from here---*/
+
+nav{
+
+    height: 5.5rem;
+    width: 100%;
+    background-color:#10223f ;
+}
+
+/*--- Navigator logo css here---*/
+
+.logo{
+    margin-left: 20px;
+    line-height: 80px;   
+}
+/*Logo margin arragements*/
+.logo img{
+    margin-top: 7px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+    margin-top: 1rem;
+}
+
+/*--- Navigator li css here---*/
+
+nav li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 60px;
+
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 1px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a:hover{
+    transition: .5s;
+    color: #00ccff;
+}
+
+/*toggle button*/
+.nav-icon{
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+} 
+
+
+/*Nav button*/
+.nav-botton1{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    color: #00ccff;
+}
+
+/*Nav css end here*/
+
+
+
+/*Section Image*/
+#header-bg{
+    background: url(/assets/images/HomeHero.jpg);
+    background-size: cover;
+    height: calc(100vh - 70px);
+}
+
+
+/*Hearder Headline (ACCELERATE)*/
+#header-headline{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 250px;
+    align-items: center;
+    
+    letter-spacing: .05rem;
+    color: white;
+    
+}
+.header-div{
+    align-items: center;
+    text-align: center;
+}
+
+
+.solutions{
+
+    text-align: center;
+}
+
+.solution-p1{
+    color: #19a6a6;
+    font-size: 30px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.solution-p2{
+    line-height: 25px;
+    color: #8d8d94;
+    
+}
+
+.button-3{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid  #00ccff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    color: #00ccff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.button-3:hover{
+    transition: .5s;
+    color: white;
+    background-color: #00ccff;
+    
+
+}
+
+.text-center{
+    border: none;
+    outline: none;
+    
+
+   
+}
+
+.text-center p{
+    color: #8d8d94;
+    font-size: 23px;
+}
+
+card-body{
+    padding: 10px;
+    margin: 10px;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    padding: 12px;
+    font-size: 24px;
+    display: inline;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 50%;
+    inline-size: 10px;
+}
+
+.circle img{
+    size: 100px;
+}
+
+.pic-22{
+    float: right;
+    justify-content: end;
+    z-index: 3;
+    position: relative;
+}
+
+.solution-p3{
+    color: #19a6a6;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    line-height: 35px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    width: 50vw;
+    text-align: center;
+    margin-left: 16rem;
+    
+}
+
+.client-area{
+    padding-top: 13rem;
+    padding-bottom: 6rem;
+}
+
+.slick-slide{
+    margin: 0 20px;
+}
+
+.slick-slide img{
+    width: 100%;
+}
+
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;   
+}
+
+.slick-list:focus{
+    outline: none;
+}
+
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img{
+    display: block;
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+
+.slick-loading .slick-slide{
+    visibility: hidden;
+}
+
+.about-us{
+    height: 60vh;
+    width: 98.5vw;
+    position: relative;
+    background-image: url('/assets/images/background-learn-about-vcti.png');
+    background-size: cover;
+}
+
+.about-head{
+    width:100% ;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0, 0, 0.5);
+    text-align: center;
+    padding: 0 15%;
+}
+
+.about-head h2{
+    padding-bottom: 15px;
+}
+
+.about-head p{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+
+.about-button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #00ccff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    color: #00ccff;
+    font-size: 14px;
+    
+}
+
+.blogs{
+    background-image: url('/assets/images/blog/Background.png');
+    
+}
+
+.blog-head1{
+    color: #00ccff;
+    text-align: center;
+}
+
+.blog-container{
+    display: flex;
+    
+    
+}
+
+.blog-image img{
+    height: 37vh;
+}
+
+.blog-card{
+    margin: 50px;
+    background-color: 	#e6e6e6;
+    height: 30rem;
+}
+
+.blog-content{
+    margin: 40px;
+}
+
+.contact{
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(40, 68, 114, 1), rgba(25, 166, 166, 1)) !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.consultation-content{
+    padding-top: 5%;
+}
+
+.consultation-content h2{
+    padding-bottom: 15px;
+    color: white;
+    
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color:#10223f ;
+}
+
+.footer_container{
+    max-width: 1240px;
+    padding: 30px 40px;
+    margin: auto;
+}
+
+.content_footer{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 1rem;
+}
+
+.profile logo_area{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.desc_area{
+    max-width: 320px;
+    margin-bottom: 1.25rem;
+}
+
+.desc_area p{
+    font-size: 1rem;
+}
+
+.social_media a{
+   
+    font-size: 24px;
+}
+
+.social_media a:hover{
+    color: #19a6a6;
+
+}
+
+.service_area{
+    display: flex;
+}
+
+.service_header{
+    margin-right: 40px;
+}
+
+.service_header li a{
+    color: white;
+    
+}
+
+.service_header li a:hover{
+    color: #19a6a6;
+    
+}
+
+.service_header li {
+    margin-bottom:15px ;
+    
+}
+
+hr{
+    height: 1px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .875rem;
+}
+
+.copy_rights{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.tou a{
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.footer_copyright_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* Responcive*/
+@media(max-width:1048px){
+    .label.logo{
+        font-size: 32px;
+        padding-left: 50px;
+    }
+    nav ul{
+        margin-right: 25px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:991px){
+
+    nav .nav-icon{
+        display: block;
+        color: white;
+        margin-top: 18px;
+    }
+
+    nav ul{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #4a5278;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 40px 0;
+        line-height: 20px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+    
+    a:hover{
+        border: none;
+        color: #00ccff;
+        transition: all 0.1s ease 0s;
+    }
+
+    /*Nav toggle*/
+    nav ul.show{
+        left: 0;
+    }
+    
+}
+
+@media (max-width:800px) {
+    .client-area{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .content_footer{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .service_area{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .service_header{
+        margin-left: 0;
+        margin-right: 40px;
+    }
+    .social_media{
+        margin-bottom: 1rem;
+    }
+    .footer_bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 510px) {
+    .service_header{
+        margin-bottom: 8px;
+    }
+    .copy_rights{
+        margin-bottom: 8px;
+    }
+}
