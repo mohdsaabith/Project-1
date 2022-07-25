@@ -260,7 +260,7 @@ card-body{
     height: 60vh;
     width: 98.5vw;
     position: relative;
-    background-image: url('/assets/images/background-learn-about-vcti.png');
+    background-image: url('assets/images/background-learn-about-vcti.png');
     background-size: cover;
 }
 
@@ -301,7 +301,7 @@ card-body{
 }
 
 .blogs{
-    background-image: url('assets/images/blog/Background.png');
+    background-image: url('/assets/images/blog/Background.png');
     
 }
 
