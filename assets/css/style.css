@@ -74,6 +74,10 @@ a:hover{
     display: none;
 } 
 
+#check{
+    display: none;
+}
+
 
 /*Nav button*/
 .nav-botton1{
@@ -92,7 +96,7 @@ a:hover{
 
 /*Section Image*/
 #header-bg{
-    background: url('assets/images/HomeHero.jpg');
+    background: url('/assets/images/HomeHero.jpg');
     background-size: cover;
     height: calc(100vh - 70px);
 }
@@ -260,7 +264,7 @@ card-body{
     height: 60vh;
     width: 98.5vw;
     position: relative;
-    background-image: url('assets/images/background-learn-about-vcti.png');
+    background-image: url('/assets/images/background-learn-about-vcti.png');
     background-size: cover;
 }
 
@@ -301,7 +305,7 @@ card-body{
 }
 
 .blogs{
-    background-image: url('assets/images/blog/Background.png');
+    background-image: url('/assets/images/blog/Background.png');
     
 }
 
@@ -513,6 +517,31 @@ hr{
     .client-area{
         padding: 0;
     }
+    .nav-icon{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:#7486a3 ;
+        top: 80x;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #00ccff;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -536,6 +565,7 @@ hr{
         flex-wrap: wrap;
         justify-content: center;
     }
+    
     
     
 }
