@@ -313,7 +313,6 @@ card-body{
 .blog-container{
     display: flex;
     
-    
 }
 
 .blog-image img{
@@ -331,7 +330,8 @@ card-body{
 }
 
 .contact{
-    height: 30vh;
+    
+    height: 45vh;
     width: 100%;
     background-image: linear-gradient(to right, rgba(40, 68, 114, 1), rgba(25, 166, 166, 1)) !important;
     align-items: center;
@@ -340,7 +340,7 @@ card-body{
 }
 
 .consultation-content{
-    padding-top: 5%;
+    padding-top: 7%;
 }
 
 .consultation-content h2{
