@@ -217,8 +217,8 @@ card-body{
 }
 
 .client-area{
-    padding-top: 13rem;
-    padding-bottom: 6rem;
+    padding-top: 6.8rem;
+    padding-bottom: 3rem;
 }
 
 .slick-slide{
@@ -466,7 +466,7 @@ hr{
     }
 }
 
-@media(max-width:991px){
+@media(max-width:914px){
 
     nav .nav-icon{
         display: block;
@@ -504,6 +504,13 @@ hr{
     nav ul.show{
         left: 0;
     }
+    .blog{
+        font-size: 10px;
+    }
+    .blog-content{
+       font-size: 10px; 
+    }
+
     
 }
 
@@ -536,6 +543,10 @@ hr{
     #check:checked ~ ul{
         left: 0;
     }
+    .blog{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -558,6 +569,10 @@ hr{
     .footer_bottom{
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .blog{
+        font-size: 1rem;
     }
     
     
