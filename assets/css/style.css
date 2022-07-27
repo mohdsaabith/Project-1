@@ -10,7 +10,7 @@
 
 body{
     font-family: Montserrat;
-
+    
 }
 
 /*--- Navigator css start from here---*/
@@ -119,6 +119,7 @@ a:hover{
     align-items: center;
     text-align: center;
 }
+
 
 
 .solutions{
@@ -360,6 +361,9 @@ footer{
     background-color:#10223f ;
 }
 
+.logo_area{
+    margin-bottom: 1.5rem;
+}
 .footer_container{
     max-width: 1240px;
     padding: 30px 40px;
@@ -388,14 +392,9 @@ footer{
     font-size: 1rem;
 }
 
-.social_media a{
-   
-    font-size: 24px;
-}
-
-.social_media a:hover{
-    color: #19a6a6;
-
+.service_name{
+    color: #00ccff;
+    padding-top: 1.5rem;
 }
 
 .service_area{
@@ -427,30 +426,25 @@ hr{
     margin-bottom: 15px;
 }
 
+
 .footer_bottom{
+    margin-top: 2rem;
+    width: 100%;
+    color: white; 
+    display: inline-block;   
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: .875rem;
 }
 
-.copy_rights{
-    color: white;
-    display: flex;
-    align-items: center;
+.footer_bottom_content{
+    justify-content: start;
+    width: 95%;
 }
 
-.tou a{
-    color: white;
-    margin-left: 1.5rem;
-}
 
-.footer_copyright_content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.social_media{
+    justify-content: end;
+    font-size: 1.5rem;
 }
-
 
 
 
