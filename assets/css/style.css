@@ -212,8 +212,11 @@ card-body{
     position: relative;
     width: 50vw;
     text-align: center;
-    margin-left: 16rem;
+    margin-left: 21%;
     
+}
+.logo-area{
+    height: 10vh;
 }
 
 .client-area{
@@ -245,7 +248,7 @@ card-body{
     display: none;
     float: left;
     height: 100%;
-    min-height: 1px;
+    min-height: 10px;
 }
 
 .slick-slide img{
@@ -510,6 +513,7 @@ hr{
     .blog-content{
        font-size: 10px; 
     }
+    
 
     
 }
