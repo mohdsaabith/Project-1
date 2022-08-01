@@ -96,7 +96,7 @@ a:hover{
 
 /*Section Image*/
 #header-bg{
-    background-image: url('mohdsaabith/project-1/assets/images/HomeHero.jpg');
+    background-image: url('/mohdsaabith/project-1/assets/images/HomeHero.jpg');
     background-size: cover;
     height: calc(100vh - 70px);
 }
@@ -268,7 +268,7 @@ card-body{
     height: 60vh;
     width: 98.5vw;
     position: relative;
-    background-image: url('./mohdsaabith/project-1/assets/images/background-learn-about-vcti.png');
+    background-image: url(mohdsaabith/project-1/assets/images/background-learn-about-vcti.png);
     background-size: cover;
 }
 
@@ -309,7 +309,7 @@ card-body{
 }
 
 .blogs{
-    background-image: url('../mohdsaabith/project-1/assets/images/blog/Background.png');
+    background-image: url(/mohdsaabith/project-1/assets/images/blog/Background.png);
     
 }
 
