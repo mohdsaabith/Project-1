@@ -96,7 +96,7 @@ a:hover{
 
 /*Section Image*/
 #header-bg{
-    background-image: url('./main/project-1/assets/images/HomeHero.jpg');
+    background-image: url('./images/HomeHero.jpg');
     background-size: cover;
     height: calc(100vh - 70px);
 }
